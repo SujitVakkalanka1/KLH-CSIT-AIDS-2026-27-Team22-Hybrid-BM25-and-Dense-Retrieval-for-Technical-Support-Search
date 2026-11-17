@@ -1,0 +1,296 @@
+[
+  {
+    "id": "Q-01",
+    "category": "exact_code",
+    "query": "E_AUTH_501",
+    "expected_id": "KB-001",
+    "notes": "Exact code lookup inside sibling trap cluster TRAP-AUTH-50X (E_AUTH_501 vs 503 vs 509)."
+  },
+  {
+    "id": "Q-02",
+    "category": "exact_code",
+    "query": "E_AUTH_503 AegisIAM Gateway",
+    "expected_id": "KB-002",
+    "notes": "Sibling trap code E_AUTH_503 on AegisIAM Gateway."
+  },
+  {
+    "id": "Q-03",
+    "category": "exact_code",
+    "query": "E_AUTH_509",
+    "expected_id": "KB-003",
+    "notes": "Sibling trap code E_AUTH_509."
+  },
+  {
+    "id": "Q-04",
+    "category": "exact_code",
+    "query": "ERR_SSL_102 NetCore EdgeProxy",
+    "expected_id": "KB-004",
+    "notes": "Exact TLS sibling code ERR_SSL_102."
+  },
+  {
+    "id": "Q-05",
+    "category": "exact_code",
+    "query": "ERR_SSL_108",
+    "expected_id": "KB-005",
+    "notes": "Sibling TLS trap code ERR_SSL_108."
+  },
+  {
+    "id": "Q-06",
+    "category": "exact_code",
+    "query": "Router-X1 v2.4.1 NET_BGP_410",
+    "expected_id": "KB-007",
+    "notes": "Firmware point-release trap: Router-X1 v2.4.1 + NET_BGP_410."
+  },
+  {
+    "id": "Q-07",
+    "category": "exact_code",
+    "query": "Router-X1 v2.4.9 NET_OSPF_419",
+    "expected_id": "KB-009",
+    "notes": "Firmware point-release trap targeting Router-X1 v2.4.9."
+  },
+  {
+    "id": "Q-08",
+    "category": "exact_code",
+    "query": "OmniSwitch-48P v5.1.2 SW_POE_212",
+    "expected_id": "KB-010",
+    "notes": "Switch firmware v5.1.2 + SW_POE_212 code lookup."
+  },
+  {
+    "id": "Q-09",
+    "category": "exact_code",
+    "query": "DB_LOCK_801 ChronosDB v6.3.0",
+    "expected_id": "KB-012",
+    "notes": "Sibling database lock code DB_LOCK_801."
+  },
+  {
+    "id": "Q-10",
+    "category": "exact_code",
+    "query": "DB_LOCK_809",
+    "expected_id": "KB-014",
+    "notes": "Sibling database lock code DB_LOCK_809."
+  },
+  {
+    "id": "Q-11",
+    "category": "exact_code",
+    "query": "CLI_ERR_901 NimbusCLI v2.9.0",
+    "expected_id": "KB-015",
+    "notes": "Sibling cloud CLI error code CLI_ERR_901."
+  },
+  {
+    "id": "Q-12",
+    "category": "exact_code",
+    "query": "CLI_ERR_907",
+    "expected_id": "KB-017",
+    "notes": "Sibling cloud CLI error code CLI_ERR_907."
+  },
+  {
+    "id": "Q-13",
+    "category": "exact_code",
+    "query": "DISP_EDID_301 ProDock",
+    "expected_id": "KB-018",
+    "notes": "Sibling display error code DISP_EDID_301."
+  },
+  {
+    "id": "Q-14",
+    "category": "exact_code",
+    "query": "DISP_PWR_309",
+    "expected_id": "KB-020",
+    "notes": "Sibling display error code DISP_PWR_309."
+  },
+  {
+    "id": "Q-15",
+    "category": "symptom",
+    "query": "how do I completely wipe my office router back to default out-of-the-box settings",
+    "expected_id": "KB-022",
+    "notes": "Colloquial 'wipe office router back to default out-of-the-box settings' vs formal 'NVRAM Factory Initialization'."
+  },
+  {
+    "id": "Q-16",
+    "category": "symptom",
+    "query": "external display keeps flashing dark and flickering brightness during games",
+    "expected_id": "KB-023",
+    "notes": "Colloquial 'flashing dark and flickering brightness' vs formal 'Vertical Blanking Interval Refresh Rate Desynchronization'."
+  },
+  {
+    "id": "Q-17",
+    "category": "symptom",
+    "query": "notebook sat unused in a closet for months and now it is totally dead with no lights",
+    "expected_id": "KB-024",
+    "notes": "Colloquial 'sat unused in a closet and now totally dead' vs formal 'Lithium-Ion Under-Voltage Lockout UVLO'."
+  },
+  {
+    "id": "Q-18",
+    "category": "symptom",
+    "query": "connected to hotel wifi on my phone yet the terms sign-in page never pops up",
+    "expected_id": "KB-025",
+    "notes": "Colloquial 'hotel wifi sign-in page never pops up' vs formal 'Captive Portal DNS Interceptor Loop'."
+  },
+  {
+    "id": "Q-19",
+    "category": "symptom",
+    "query": "copying massive video folders starts fast then drops to a crawl as the drive heats up",
+    "expected_id": "KB-026",
+    "notes": "Colloquial 'drops to a crawl as the drive heats up' vs 'NVMe Thermal Throttling & SLC Cache Saturation'."
+  },
+  {
+    "id": "Q-20",
+    "category": "symptom",
+    "query": "company single sign-on rejects employees when our server time is half a second off",
+    "expected_id": "KB-027",
+    "notes": "Plain description of server time half a second off vs 'SAML 2.0 NotBefore/NotOnOrAfter Validation Rejection'."
+  },
+  {
+    "id": "Q-21",
+    "category": "symptom",
+    "query": "containers keep getting kicked off the host server even with plenty of disk space left",
+    "expected_id": "KB-028",
+    "notes": "Plain description of containers kicked off server with free space vs 'Kubelet Ephemeral Storage Inode Exhaustion'."
+  },
+  {
+    "id": "Q-22",
+    "category": "symptom",
+    "query": "sql server suddenly locked up and blocks saving new rows to prevent data corruption",
+    "expected_id": "KB-029",
+    "notes": "Colloquial description of emergency write freeze vs 'PostgreSQL Transaction ID XID Wraparound'."
+  },
+  {
+    "id": "Q-23",
+    "category": "symptom",
+    "query": "high pitched buzzing squeal coming from inside the computer case when sitting idle",
+    "expected_id": "KB-030",
+    "notes": "Colloquial 'high pitched buzzing squeal when sitting idle' vs 'Acoustic Coil Whine From MLCC Piezoelectric Resonance'."
+  },
+  {
+    "id": "Q-24",
+    "category": "symptom",
+    "query": "third screen stays completely blank when linking multiple monitors together in a row",
+    "expected_id": "KB-018",
+    "notes": "Natural description of 3-monitor daisy-chain blackout without mentioning MST, EDID, or HBR3."
+  },
+  {
+    "id": "Q-25",
+    "category": "symptom",
+    "query": "screens plugged into my laptop hub go black briefly whenever the processor works hard",
+    "expected_id": "KB-020",
+    "notes": "Natural description of dock display brownout under load without mentioning PDO or VBUS."
+  },
+  {
+    "id": "Q-26",
+    "category": "symptom",
+    "query": "websites hang forever when loading over fiber internet even though basic ping works",
+    "expected_id": "KB-008",
+    "notes": "Plain description of fiber internet ping working while websites hang (KB-008 PPPoE MSS blackhole)."
+  },
+  {
+    "id": "Q-27",
+    "category": "symptom",
+    "query": "security cameras and office wifi units stay powered off after restarting the network switch",
+    "expected_id": "KB-010",
+    "notes": "Plain description of cameras/wifi staying off after switch reboot (KB-010 PoE++ Class 6 denial)."
+  },
+  {
+    "id": "Q-28",
+    "category": "symptom",
+    "query": "plug-in USB passkey dongle fails passwordless setup because its onboard memory slots are full",
+    "expected_id": "KB-021",
+    "notes": "Plain description of USB passkey memory slots full (KB-021 FIDO2 resident key overflow)."
+  },
+  {
+    "id": "Q-29",
+    "category": "mixed",
+    "query": "login keeps kicking users back to the sign-in screen after key change, auth 501",
+    "expected_id": "KB-001",
+    "notes": "Plain-English symptom ('login keeps kicking users back to sign-in screen') + partial code 'auth 501'."
+  },
+  {
+    "id": "Q-30",
+    "category": "mixed",
+    "query": "sign-in fails right after redirect because staging and prod IDs got mixed up, auth 503",
+    "expected_id": "KB-002",
+    "notes": "Plain-English symptom + partial code 'auth 503'."
+  },
+  {
+    "id": "Q-31",
+    "category": "mixed",
+    "query": "company proxy blocks external web apps when their certificate chain is incomplete, ssl 102",
+    "expected_id": "KB-004",
+    "notes": "Plain-English symptom + partial code 'ssl 102'."
+  },
+  {
+    "id": "Q-32",
+    "category": "mixed",
+    "query": "long streaming connection cuts off abruptly after sending a gigabyte of data, ssl 109",
+    "expected_id": "KB-006",
+    "notes": "Plain-English symptom + partial code 'ssl 109'."
+  },
+  {
+    "id": "Q-33",
+    "category": "mixed",
+    "query": "branch internet can ping out fine but web pages stall forever on v2.4.4",
+    "expected_id": "KB-008",
+    "notes": "Plain-English symptom + partial version code 'v2.4.4'."
+  },
+  {
+    "id": "Q-34",
+    "category": "mixed",
+    "query": "both paired uplink cables on the switch drop out at the exact same time, lacp 218",
+    "expected_id": "KB-011",
+    "notes": "Plain-English symptom + partial code 'lacp 218'."
+  },
+  {
+    "id": "Q-35",
+    "category": "mixed",
+    "query": "saving records pauses completely for several seconds every quarter hour, lock 801",
+    "expected_id": "KB-012",
+    "notes": "Plain-English symptom + partial code 'lock 801'."
+  },
+  {
+    "id": "Q-36",
+    "category": "mixed",
+    "query": "nightly batch import crashes when two workers insert child records at once, lock 804",
+    "expected_id": "KB-013",
+    "notes": "Plain-English symptom + partial code 'lock 804'."
+  },
+  {
+    "id": "Q-37",
+    "category": "mixed",
+    "query": "automated deployment pipeline stops halfway through after running for an hour, err 902",
+    "expected_id": "KB-016",
+    "notes": "Plain-English symptom + partial code 'err 902'."
+  },
+  {
+    "id": "Q-38",
+    "category": "mixed",
+    "query": "external TV screen goes blank whenever we open copy-protected streaming video, edid 305",
+    "expected_id": "KB-019",
+    "notes": "Plain-English symptom + partial code 'edid 305'."
+  },
+  {
+    "id": "Q-39",
+    "category": "mixed",
+    "query": "workstation battery drained completely in storage and refuses to wake up, uvlo 119",
+    "expected_id": "KB-024",
+    "notes": "Plain-English symptom + partial code 'uvlo 119'."
+  },
+  {
+    "id": "Q-40",
+    "category": "mixed",
+    "query": "managed database suddenly refuses to save any new records to prevent data loss, xid 990",
+    "expected_id": "KB-029",
+    "notes": "Plain-English symptom + partial code 'xid 990'."
+  },
+  {
+    "id": "Q-41",
+    "category": "unanswerable",
+    "query": "Router-X1 v3.9.0-beta2 quantum key distribution tunnel drops with error NET_QKD_999",
+    "expected_id": null,
+    "notes": "Plausible in-domain network support query referencing an unreleased firmware build (v3.9.0-beta2) and nonexistent error code (NET_QKD_999)."
+  },
+  {
+    "id": "Q-42",
+    "category": "unanswerable",
+    "query": "AegisIAM Gateway v6.0.0 retinal biometric scanner fails liveness check with E_BIO_999",
+    "expected_id": null,
+    "notes": "Plausible in-domain IAM support query referencing an unreleased major version (v6.0.0) and nonexistent error code (E_BIO_999)."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Hybrid BM25 + Dense Retrieval Search Engine Prototype",
+  "description": "A hybrid technical support search engine prototype combining sparse BM25Okapi and dense vector retrieval with 1-indexed Reciprocal Rank Fusion (RRF) and a Recall@5 / MRR@5 evaluation harness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
